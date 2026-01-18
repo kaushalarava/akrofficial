@@ -142,12 +142,12 @@ function App() {
               >
                 About
               </a>
-              <a
+              {/* <a
                 href="#projects"
                 className="text-white/80 hover:text-orange-400 transition-colors"
               >
                 Projects
-              </a>
+              </a> */}
               <a
                 href="#experience"
                 className="text-white/80 hover:text-orange-400 transition-colors"
@@ -182,14 +182,13 @@ function App() {
               AI-Driven <span className="text-orange-400">Innovation</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto animate-slide-up">
-              Senior Software Developer | AI Technology Contributor | UI/UX
-              Expert 
+              Software Developer | AI Technology | UI/UX Expert | Business Analytics Professional
               {/* | Former JP Morgan & Rakuten Professional */}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-delayed">
-              <a href="#projects">
+              <a href="#experience">
                 <button className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-8 py-3 rounded-full hover:from-orange-600 hover:to-red-600 transition-all duration-300 transform hover:scale-105 shadow-lg">
-                  View Projects
+                  View Experience
                 </button>
               </a>
               <a href="#contact">
@@ -218,38 +217,37 @@ function App() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               {/* Text Section */}
               <div className="space-y-6">
-                <h2 className="text-4xl md:text-5xl font-extrabold text-cyan-400 tracking-wide">
-                  AI-Driven Professional
+                <h2 className="text-4xl md:text-4xl font-extrabold text-orange-400 tracking-wide">
+                Software Engineering & Business Analytics Professional
                 </h2>
+                needs into data-driven, impactful products.
                 <p className="text-lg text-gray-200 leading-relaxed">
-                  A forward-thinking innovator with expertise in{" "}
+                Software Engineer and Business Analytics professional with 8+ years of experience{" "}
                   <span className="text-cyan-300 font-semibold">
-                    UI/UX design
+                  designing and delivering scalable,
                   </span>
-                  and{" "}
+                  {" "}
                   <span className="text-purple-300 font-semibold">
-                    front-end engineering
+                  UI/UX-focused, enterprise-grade applications
                   </span>
-                  . Successfully delivered scalable solutions including
-                  AI-powered modules for{" "}
-                  <span className="text-cyan-400">JP Morgan</span> and
-                  enterprise applications for{" "}
-                  <span className="text-purple-400">Rakuten</span>.
+                  . Earned a Master’s in Information Systems and Technology,{" "}
+                  <span className="text-purple-400">specializing in data analytics, AI/ML integration</span> and
+                  intelligent system design{" "}.
                 </p>
                 <p className="text-lg text-gray-300 leading-relaxed">
-                  Bridging{" "}
-                  <span className="text-cyan-400">business strategy</span> with
+                Proven track record of building high-performance solutions{" "}
+                  <span className="text-cyan-400">for global clients and public-sector organizations, translating complex business</span> with
                   <span className="text-purple-300">
                     {" "}
-                    cutting-edge technology
+                    needs into data-driven, impactful products.
                   </span>
-                  , holding a Master’s in
+                  {/* , holding a Master’s in
                   <span className="text-orange-400">
                     {" "}
                     Management Information Systems
                   </span>
                   . Seeking opportunities to shape the future of{" "}
-                  <span className="text-cyan-300">AI technology</span>.
+                  <span className="text-cyan-300">AI technology</span>. */}
                 </p>
 
                 {/* Stats */}
@@ -260,7 +258,7 @@ function App() {
                   </div>
                   <div className="text-center bg-gray-900/70 backdrop-blur-md rounded-xl p-4 shadow-lg border border-cyan-500/30">
                     <div className="text-4xl font-bold text-cyan-400">MS</div>
-                    <div className="text-gray-300">Management Info Systems</div>
+                    <div className="text-gray-300">Information Systems & Technology</div>
                   </div>
                 </div>
               </div>
@@ -268,7 +266,7 @@ function App() {
               {/* Profile / AI Image */}
               <div className="relative">
                 <img
-                  src="/Images/kaushal_ph.jpeg" // 👈 keep your profile photo
+                  src="/Images/akr-profile.png" // 👈 keep your profile photo
                   alt="Professional Profile"
                   className="rounded-2xl shadow-2xl border border-cyan-500/30 hover:scale-105 transition-transform duration-500"
                 />
@@ -279,74 +277,7 @@ function App() {
           </div>
         </div>
       </section>
-
-      {/* Software Development Projects */}
-      <section
-        id="projects"
-        className="relative z-10 py-16 px-4 sm:px-6 lg:px-8"
-      >
-        {/* Section Background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-green-900/40 via-teal-900/40 to-emerald-900/40"></div>
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center opacity-15"></div>
-        <div className="absolute inset-0 bg-black/60"></div>{" "}
-        {/* darker overlay for contrast */}
-        <div className="relative z-10">
-          <div className="max-w-7xl mx-auto">
-            <h2 className="text-4xl font-bold text-center text-white mb-12">
-              AI & Technology Expertise
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {/* AI & ML Integration */}
-              <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-white/30 hover:border-white/50">
-                <div className="text-4xl mb-4">🤖</div>
-                <h3 className="text-xl font-semibold text-white mb-3">AI & ML Integration</h3>
-                <p className="text-white/90 mb-2">Built ML models to analyze user behavior and preferences for personalized, dynamic financial advice.</p>
-                <p className="text-white/70">Focus: data collection, feedback loops, and narrative-driven UX to improve model relevance.</p>
-              </div>
-
-              {/* Front-end Engineering & UI/UX */}
-              <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-white/30 hover:border-white/50">
-                <div className="text-4xl mb-4">🎨</div>
-                <h3 className="text-xl font-semibold text-white mb-3">Front-end Engineering & UI/UX</h3>
-                <p className="text-white/90 mb-2">UI/UX front-end developer with end‑to‑end design architecture expertise; delivered responsive, scalable interfaces.</p>
-                <p className="text-white/70">Stack: Angular (v10→v13 migration), React, TypeScript; strong componentization and accessibility.</p>
-              </div>
-
-              {/* Enterprise Messaging & Multiline */}
-              <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-white/30 hover:border-white/50">
-                <div className="text-4xl mb-4">📱</div>
-                <h3 className="text-xl font-semibold text-white mb-3">Enterprise Messaging & Multiline</h3>
-                <p className="text-white/90 mb-2">Led major modules: Voicemail, Group Messaging, Picture Messaging; built Microsoft Contacts Sync and Teams integrations.</p>
-                <p className="text-white/70">Implemented SIP concepts for connecting multiple valid numbers in Multiline desktop and Teams apps.</p>
-              </div>
-
-              {/* Product Development & Electron */}
-              <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-white/30 hover:border-white/50">
-                <div className="text-4xl mb-4">🖥️</div>
-                <h3 className="text-xl font-semibold text-white mb-3">Product Development & Electron</h3>
-                <p className="text-white/90 mb-2">Developed Electron desktop apps for video conferencing solutions (Roombr, Roombr) across three platforms.</p>
-                <p className="text-white/70">Contributed to Angular web applications enabling online meetings, presentations, and virtual classes.</p>
-              </div>
-
-              {/* Business Development Leadership */}
-              <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-white/30 hover:border-white/50">
-                <div className="text-4xl mb-4">📈</div>
-                <h3 className="text-xl font-semibold text-white mb-3">Business Development Leadership</h3>
-                <p className="text-white/90 mb-2">Delivered ~10 CR INR (~$1.2M) in one year; led nationwide initiatives across 18 states.</p>
-                <p className="text-white/70">Built partnerships with distributors and government stakeholders; managed teams across West and South zones.</p>
-              </div>
-
-              {/* Education & Research */}
-              <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-white/30 hover:border-white/50">
-                <div className="text-4xl mb-4">🎓</div>
-                <h3 className="text-xl font-semibold text-white mb-3">Education & Research</h3>
-                <p className="text-white/90 mb-2">MS in Information Systems & Technology (GPA 3.66); BSc in Information Technology (GPA 7.9/10).</p>
-                <p className="text-white/70">Graduate Research Assistant at CSUSB: data-driven AI, storytelling frameworks, and continuous improvement.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+   
 
       {/* Professional Experience */}
       <section
@@ -355,7 +286,7 @@ function App() {
 >
   {/* Section Background */}
   <div className="absolute inset-0 bg-gradient-to-br from-slate-800/40 via-gray-800/40 to-zinc-800/40"></div>
-  <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center opacity-15"></div>
+  {/* <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center opacity-15"></div> */}
   <div className="absolute inset-0 bg-black/40"></div> {/* soft dark overlay */}
 
   <div className="relative z-10">
@@ -364,28 +295,92 @@ function App() {
         Professional Experience
       </h2>
             <div className="space-y-8">
-              {/* Independent Practitioner Projects */}
+              {/* Software Engineer III - Movius */}
               <div className="bg-white/20 backdrop-blur-md rounded-2xl p-8 shadow-lg border border-white/30 hover:border-white/50 transition-all duration-300 hover:shadow-xl">
                 <div className="flex items-center mb-4">
-                  <div className="bg-yellow-100 p-3 rounded-full mr-4">
-                    <div className="text-2xl">🚀</div>
+                  <div className="rounded-full mr-4 " style={{ width: "70px" }}>
+                    <div className="text-2xl">
+                    <img
+                        src="/Images/movius-logo.jpg" // Movius logo
+                        alt="movius"
+                        className="rounded-2xl shadow-2xl border border-cyan-500/30 hover:scale-105 transition-transform duration-500"
+                      />
+                    </div>
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-white">Independent Practitioner Projects</h3>
+                    <h3 className="text-2xl font-bold text-white">Software Engineer III</h3>
+                    <p className="text-white/80">Movius Corporation — Mar 2021 – Jul 2023, Bangalore, India</p>
                   </div>
                 </div>
                 <ul className="list-disc list-inside text-white/90 space-y-2 mb-2">
-                  <li>Worked closely with the team to integrate various data sources (e.g., GPS, traffic APIs, and warehouse management systems) into the Transportation Management Systems software, ensuring seamless data flow and real-time updates for users.</li>
-                  <li>Contributed to testing the software's functionality through a variety of use cases, ensuring that all system features met performance, security, and usability standards. Identified bugs and worked with developers to troubleshoot and resolve issues.</li>
-                  <li>Developed a web-based application, Friend Mapper, designed to help users visualize and map their social connections and interactions. The application allows users to create profiles, connect with friends, and display relationships in an interactive, user-friendly interface.</li>
+                  <li>Architected and developed enterprise-grade front-end solutions for the Movius Multiline Desktop application using Angular (v10–v13), TypeScript, Electron, RxJS, HTML5, SCSS, and JavaScript (ES6+), ensuring modular, scalable, and maintainable codebases</li>
+                  <li>Led implementation of core communication features including Voicemail, Group Messaging, and Picture Messaging, integrating SIP protocols, secure messaging workflows, and real-time event handling.</li>
+                  <li>Designed and maintained fully responsive, adaptive UIs supporting Windows, macOS, iOS (iPhone/iPad), and tablet form factors, leveraging CSS Flexbox/Grid, media queries, and component-driven design systems.</li>
+                  <li>Integrated RESTful APIs, Microsoft Teams APIs, Microsoft Contacts Sync and SQL Database while contributing to Movius Multiline platform with a strong focus on security, compliance, performance, and cross-team collaboration.</li>
                 </ul>
               </div>
 
-              {/* Graduate Research Assistant - CSUSB */}
+              {/* Software Engineer - Mavenir */}
+
               <div className="bg-white/20 backdrop-blur-md rounded-2xl p-8 shadow-lg border border-white/30 hover:border-white/50 transition-all duration-300 hover:shadow-xl">
                 <div className="flex items-center mb-4">
-                  <div className="bg-blue-100 p-3 rounded-full mr-4">
-                    <div className="text-2xl">🎓</div>
+                  <div className="rounded-full mr-4 " style={{ width: "70px" }}>
+                    <div className="text-2xl">
+                      <img
+                        src="/Images/mavenir_logo.jpeg" // Mavenir logo
+                        alt="Professional Profile"
+                        className="rounded-2xl shadow-2xl border border-cyan-500/30 hover:scale-105 transition-transform duration-500"
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-bold text-white">Software Engineer</h3>
+                    <p className="text-white/80">Mavenir Systems — Aug 2020 – Feb 2021, Bangalore, India</p>
+                  </div>
+                </div>
+                <ul className="list-disc list-inside text-white/90 space-y-2 mb-2">
+                  <li>Designed and developed mobile-first, responsive web interfaces using Angular/React, TypeScript, JavaScript (ES6+), HTML5, CSS3, and SCSS, delivering consistent user experiences across mobile phones, tablets, and desktop platforms.</li>
+                  <li>Built and optimized high-traffic e-commerce workflows (device catalog, plan selection, checkout, and payments) by integrating RESTful APIs, focusing on performance, scalability, and reliability.</li>
+                  <li>Implemented localization (i18n) and accessibility standards (WCAG) while applying responsive design principles and web performance optimization techniques such as lazy loading and component optimization.</li>
+                </ul>
+              </div>
+
+              {/* Business Development Manager - Virtulive */}
+              <div className="bg-white/20 backdrop-blur-md rounded-2xl p-8 shadow-lg border border-white/30 hover:border-white/50 transition-all duration-300 hover:shadow-xl">
+                <div className="flex items-center mb-4">
+                  <div className="rounded-full mr-4 " style={{ width: "70px" }}>
+                    <div className="">
+                    <img
+                        src="/Images/virtulive-logo.jpg" // Movius logo
+                        alt="Virtulive"
+                        className="rounded-2xl shadow-2xl border border-cyan-500/30 hover:scale-105 transition-transform duration-500"
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-bold text-white">Software Engineer | Business Development Manager</h3>
+                    <p className="text-white/80">Virtulive Technologies Pvt Ltd — Aug 2015 – Apr 2019, Banglore, India</p>
+                  </div>
+                </div>
+                <ul className="list-disc list-inside text-white/90 space-y-2 mb-2">
+                  <li>Full-Stack Developer for Roombr video conferencing platform, building web (Angular 5) and Electron-based desktop applications enabling online meetings, virtual classrooms, and real-time collaboration.</li>
+                  <li>Designed and implemented UI/UX front-end components, ensuring responsive, cross-platform interfaces for desktop, tablet, and mobile devices.</li>
+                  <li>Developed and maintained real-time communication features using WebRTC, SIP protocols, and REST APIs, optimizing application performance, scalability, and reliability.</li>
+                  <li>Served as Business Development  Manager, generating 10 CR INR (~1.2M USD) revenue, managing nationwide adoption of the platform, and engaging with enterprise clients and government stakeholders.</li>
+                </ul>
+              </div>
+
+               {/* Graduate Research Assistant - CSUSB */}
+               <div className="bg-white/20 backdrop-blur-md rounded-2xl p-8 shadow-lg border border-white/30 hover:border-white/50 transition-all duration-300 hover:shadow-xl">
+                <div className="flex items-center mb-4">
+                  <div className="rounded-full mr-4 " style={{ width: "70px" }}>
+                    <div className="text-2xl">
+                    <img
+                        src="/Images/csusb-logo.jpg" // Movius logo
+                        alt="CSUSB"
+                        className="rounded-2xl shadow-2xl border border-cyan-500/30 hover:scale-105 transition-transform duration-500"
+                      />
+                    </div>
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold text-white">Graduate Research Assistant</h3>
@@ -398,97 +393,59 @@ function App() {
                   <li>Storytelling Framework Development: Contributed to the design and integration of narrative-driven elements to enhance user engagement and make complex financial concepts more accessible and relatable.</li>
                 </ul>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-              {/* Software Engineer III - Movius */}
-              <div className="bg-white/20 backdrop-blur-md rounded-2xl p-8 shadow-lg border border-white/30 hover:border-white/50 transition-all duration-300 hover:shadow-xl">
+      {/* Education */}
+      <section
+        id="education"
+        className="relative z-10 py-16 px-4 sm:px-6 lg:px-8"
+      >
+        {/* Section Background */}
+        <div className="absolute inset-0 bg-gradient-to-br from-indigo-900/40 via-purple-900/40 to-pink-900/40"></div>
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center opacity-15"></div>
+        <div className="absolute inset-0 bg-black/40"></div>
+
+        <div className="relative z-10">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-4xl font-bold text-center text-white mb-12">
+              Education
+            </h2>
+            <div className="bg-white/20 backdrop-blur-md rounded-2xl p-8 shadow-lg border border-white/30 hover:border-white/50 transition-all duration-300 hover:shadow-xl">
+              <div className="space-y-4">
                 <div className="flex items-center mb-4">
-                  <div className="bg-red-100 p-3 rounded-full mr-4">
-                    <div className="text-2xl">💬</div>
+                  <div className="rounded-full mr-4 " style={{ width: "70px" }}>
+                    <div className="text-2xl">
+                    <img
+                        src="/Images/csusb-logo.jpg" // CSUSB logo
+                        alt="CSUSB"
+                        className="rounded-2xl shadow-2xl border border-cyan-500/30 hover:scale-105 transition-transform duration-500"
+                      />
+                    </div>
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-white">Software Engineer III</h3>
-                    <p className="text-white/80">Movius Corporation — Mar 2021 – Jul 2023, Bangalore, India</p>
+                    <span className="text-cyan-400">Master of Science (M.S.) in Information Systems and Technology</span>
+                    <p className="text-white/80">California State University, San Bernardino, CA | GPA: 3.66</p>
+                  </div>
+                  </div>
+                  <div className="flex items-center mb-4">
+                    <div className="bg-white rounded-full mr-4 " style={{ width: "70px" }}>
+                      <div className="text-2xl">
+                      <img
+                        src="/Images/sathyabam-logo.png" // Sathyabama logo
+                        alt="Sathyabama"
+                        className="bg-white rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-500"
+                      />
+                      </div>
+                    </div>
+                    <div>
+                      <span className="text-cyan-400">Bachelor of Science (B.S.) in Information Technology</span>
+                      <p className="text-white/80">Sathyabama University, Chennai, India | GPA: 7.9/10</p>
+                    </div>
                   </div>
                 </div>
-                <ul className="list-disc list-inside text-white/90 space-y-2 mb-2">
-                  <li>UI/UX front-end developer with expertise in design architecture for entire projects.</li>
-                  <li>Led major modules like Voicemail Messaging, Group Messaging, and Picture Messaging.</li>
-                  <li>Successfully migrated Angular from version 10 to 13.</li>
-                  <li>Specialized in creating responsive UI for applications.</li>
-                  <li>Experience includes Microsoft contacts Sync and Teams integrated application development.</li>
-                  <li>Contributed as a UI/UX front-end developer for JP Morgan's Multiline Desktop application, implementing SIP concept for connecting multiple valid numbers using AI developed modules.</li>
-                </ul>
-              </div>
-
-              {/* Software Engineer - Mavenir */}
-              <div className="bg-white/20 backdrop-blur-md rounded-2xl p-8 shadow-lg border border-white/30 hover:border-white/50 transition-all duration-300 hover:shadow-xl">
-                <div className="flex items-center mb-4">
-                  <div className="bg-purple-100 p-3 rounded-full mr-4">
-                    <div className="text-2xl">🏢</div>
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-bold text-white">Software Engineer</h3>
-                    <p className="text-white/80">Mavenir Systems — Aug 2020 – Feb 2021, Bangalore, India</p>
-                  </div>
-                </div>
-                <ul className="list-disc list-inside text-white/90 space-y-2 mb-2">
-                  <li>UI/UX Designer for Rakuten, managing front-end development of commercial applications for a Japanese company.</li>
-                  <li>Proficient in client interaction, conducting demos, presentations, and effectively understanding client requirements.</li>
-                </ul>
-              </div>
-
-              {/* Business Development Manager - Virtulive */}
-              <div className="bg-white/20 backdrop-blur-md rounded-2xl p-8 shadow-lg border border-white/30 hover:border-white/50 transition-all duration-300 hover:shadow-xl">
-                <div className="flex items-center mb-4">
-                  <div className="bg-orange-100 p-3 rounded-full mr-4">
-                    <div className="text-2xl">📈</div>
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-bold text-white">Business Development Manager</h3>
-                    <p className="text-white/80">Virtulive Technologies Pvt Ltd — May 2019 – Jul 2020</p>
-                  </div>
-                </div>
-                <ul className="list-disc list-inside text-white/90 space-y-2 mb-2">
-                  <li>Revenue generator, achieving 10 CR INR of 1.2 million USD in one year.</li>
-                  <li>Expert in impactful presentations, order closures, specializing in the education sector.</li>
-                  <li>Nationwide Business Development Manager, covered 18 states, fostering relationships with key profiles and government sectors.</li>
-                  <li>Well-connected with distributors and partners, adept at customer engagement for successful order closures.</li>
-                  <li>Managed a team spanning West and South zones, covering 9 states, with strong technical knowledge and effective sales approach.</li>
-                </ul>
-              </div>
-
-              {/* Product Development / Software Engineer Intern - Virtulive */}
-              <div className="bg-white/20 backdrop-blur-md rounded-2xl p-8 shadow-lg border border-white/30 hover:border-white/50 transition-all duration-300 hover:shadow-xl">
-                <div className="flex items-center mb-4">
-                  <div className="bg-teal-100 p-3 rounded-full mr-4">
-                    <div className="text-2xl">🛠️</div>
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-bold text-white">Product Development, Software Engineer (Intern)</h3>
-                    <p className="text-white/80">Virtulive Technologies Pvt Ltd — Aug 2015 – Apr 2019, Mysore, India</p>
-                  </div>
-                </div>
-                <ul className="list-disc list-inside text-white/90 space-y-2 mb-2">
-                  <li>Product Development Engineer specializing in components experimentation for research and development, including mics, speakers, and touch sensor projections.</li>
-                  <li>Developed Desktop application using Electron Framework for Roombr and Roombr video conference solution.</li>
-                  <li>Contributed to the development and bug fixing of Roombr and Roombr web applications using Angular 5, enabling online meetings, presentations, virtual classes, and more.</li>
-                  <li>Experience includes UI/UX design roles, enhancing user experience across applications.</li>
-                </ul>
-              </div>
-
-              {/* Education */}
-              <div className="bg-white/20 backdrop-blur-md rounded-2xl p-8 shadow-lg border border-white/30 hover:border-white/50 transition-all duration-300 hover:shadow-xl">
-                <div className="flex items-center mb-4">
-                  <div className="bg-green-100 p-3 rounded-full mr-4">
-                    <div className="text-2xl">🎓</div>
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-bold text-white">Education</h3>
-                    <p className="text-white/80">MS in Information Systems & Technology, CSUSB (GPA: 3.66)</p>
-                    <p className="text-white/80">BSc in Information Technology, Sathyabama University (GPA: 7.9/10)</p>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -550,7 +507,7 @@ function App() {
                 </a>
               </div>
 
-              <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 shadow-lg border border-white/30 hover:border-white/50 transition-all duration-300 hover:shadow-xl">
+              {/* <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 shadow-lg border border-white/30 hover:border-white/50 transition-all duration-300 hover:shadow-xl">
                 <h3 className="text-xl font-semibold text-white mb-3">Roombr Video Conference</h3>
                 <p className="text-white/70 mb-2 text-sm">Web-based video conferencing application for online meetings, presentations, and virtual classes.</p>
               </div>
@@ -566,21 +523,8 @@ function App() {
                 <p className="text-white/90 text-sm mt-2">• District collector (W Sikkim)</p>
                 <p className="text-white/90 text-sm">• Govt Medical College (Telangana)</p>
                 <p className="text-white/90 text-sm">• District collector Bellary</p>
-              </div>
-
-              <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 shadow-lg border border-white/30 hover:border-white/50 transition-all duration-300 hover:shadow-xl">
-                <h3 className="text-xl font-semibold text-white mb-3">Mavenir Portal</h3>
-                <p className="text-white/70 mb-2 text-sm">Enterprise portal solution for managing and monitoring network operations and services.</p>
-                {/* <a
-                  href="https://staging.mde.mavenir.com/portal/#/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-cyan-300 hover:text-cyan-200 underline break-all text-sm"
-                >
-                  https://staging.mde.mavenir.com/portal/#/
-                </a> */}
-              </div>
-
+              </div> */}
+{/* 
               <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 shadow-lg border border-white/30 hover:border-white/50 transition-all duration-300 hover:shadow-xl">
                 <h3 className="text-xl font-semibold text-white mb-3">Movius Web</h3>
                 <p className="text-white/70 mb-2 text-sm">Web-based communication platform for enterprise messaging and collaboration solutions.</p>
@@ -592,20 +536,20 @@ function App() {
                 >
                   https://uatzeta.moviuscorp.net/movius-web
                 </a>
-              </div>
+              </div> */}
 
-              <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 shadow-lg border border-white/30 hover:border-white/50 transition-all duration-300 hover:shadow-xl">
+              {/* <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 shadow-lg border border-white/30 hover:border-white/50 transition-all duration-300 hover:shadow-xl">
                 <h3 className="text-xl font-semibold text-white mb-3">Multiline App</h3>
                 <p className="text-white/70 mb-2 text-sm">Electron-based desktop application for managing multiple phone lines and SIP connections, including MLDT_POC, SLAB Multiline Application, and Multiline Application variants.</p>
                 <p className="text-white/90 text-sm mt-2">• MLDT_POC</p>
                 <p className="text-white/90 text-sm">• SLAB Multiline Application</p>
                 <p className="text-white/90 text-sm">• Multiline Application</p>
-              </div>
-
+              </div> */}
+{/* 
               <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 shadow-lg border border-white/30 hover:border-white/50 transition-all duration-300 hover:shadow-xl">
                 <h3 className="text-xl font-semibold text-white mb-3">Teams App</h3>
                 <p className="text-white/70 mb-2 text-sm">Microsoft Teams integration application for enhanced collaboration and communication within enterprise environments.</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -618,7 +562,7 @@ function App() {
       >
         {/* Section Background */}
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900/20 via-gray-900/20 to-zinc-900/20"></div>
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1551782450-a2132b4ba21d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center opacity-20"></div>
+        <div className="absolute inset-0 bg-[url('/Images/coding-image.png')] bg-cover bg-center opacity-20"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-black/10"></div>
 
         {/* Food Elements - Keep in Contact Section */}
@@ -653,20 +597,20 @@ function App() {
 
         <div className="relative z-10">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-center text-white mb-6">
-              Let's Connect
+            <h2 className="text-4xl font-bold text-center text-orange-500 mb-6">
+            Let's Build something together
             </h2>
-            <p className="text-lg text-white/90 mb-8 text-center">
+            {/* <p className="text-lg text-white/90 mb-8 text-center">
               Ready to collaborate on AI technology projects or discuss
               innovative software solutions? I'm actively seeking opportunities
               to contribute to cutting-edge technology initiatives.
-            </p>
+            </p> */}
 
             <div className="max-w-3xl mx-auto grid grid-cols-1 gap-12">
               {/* Contact Info - personal details only */}
               <div className="space-y-8">
                 <div className="bg-white/20 backdrop-blur-md rounded-2xl p-8 border border-white/30 hover:border-white/50 transition-all duration-300">
-                  <h3 className="text-2xl font-bold text-white mb-6">
+                  <h3 className="text-2xl font-bold text-cyan-400 mb-6">
                     Get In Touch
                   </h3>
                   <div className="space-y-4">
@@ -748,7 +692,7 @@ function App() {
                 
                 </div>
 
-                <div className="bg-white/20 backdrop-blur-md rounded-2xl p-8 border border-white/30 hover:border-white/50 transition-all duration-300">
+                {/* <div className="bg-white/20 backdrop-blur-md rounded-2xl p-8 border border-white/30 hover:border-white/50 transition-all duration-300">
                   <h3 className="text-xl font-bold text-white mb-4">
                     Available For
                   </h3>
@@ -768,7 +712,7 @@ function App() {
                   </div>
 
                 
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -779,8 +723,7 @@ function App() {
       <footer className="relative z-10 bg-black/60 backdrop-blur-sm text-white py-8 px-4 sm:px-6 lg:px-8 border-t border-white/10">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-white/70">
-            &copy; 2025 AKR Official - AI Technology Contributor & Software
-            Developer. All rights reserved.
+            &copy; 2025 AKR Official - Software Developer | AI Technology | UI/UX Expert | Business Analytics Professional. All rights reserved.
           </p>
         </div>
       </footer>
