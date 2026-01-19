@@ -126,21 +126,29 @@ function App() {
             <div className="flex items-center">
               {/* <img src="/Images/logo.png" alt="AKR Logo" className="h-8 w-8 mr-3" /> */}
               <div className="text-xl sm:text-2xl font-bold text-white text-center">
+              <a
+                href="#about"
+                className="text-white/80 hover:text-orange-400 transition-colors"
+              >
                 ARAVA KAUSHAL RAO
+              </a>
+                
               </div>
             </div>
             <div className="hidden md:flex space-x-8">
+              <a
+                href="/Docs/Resume.pdf"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-white/80 hover:text-orange-400 transition-colors"
+              >
+                Resume
+              </a>
               <a
                 href="#home"
                 className="text-white/80 hover:text-orange-400 transition-colors"
               >
                 Home
-              </a>
-              <a
-                href="#about"
-                className="text-white/80 hover:text-orange-400 transition-colors"
-              >
-                About
               </a>
               {/* <a
                 href="#projects"
@@ -309,7 +317,7 @@ function App() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold text-white">Software Engineer III</h3>
-                    <p className="text-white/80">Movius Corporation — Mar 2021 – Jul 2023, Bangalore, India</p>
+                    <p className="text-cyan-500">Movius Corporation — Mar 2021 – Jul 2023, Bangalore, India</p>
                   </div>
                 </div>
                 <ul className="list-disc list-inside text-white/90 space-y-2 mb-2">
@@ -335,7 +343,7 @@ function App() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold text-white">Software Engineer</h3>
-                    <p className="text-white/80">Mavenir Systems — Aug 2020 – Feb 2021, Bangalore, India</p>
+                    <p className="text-cyan-500">Mavenir Systems — Aug 2020 – Feb 2021, Bangalore, India</p>
                   </div>
                 </div>
                 <ul className="list-disc list-inside text-white/90 space-y-2 mb-2">
@@ -359,7 +367,7 @@ function App() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold text-white">Software Engineer | Business Development Manager</h3>
-                    <p className="text-white/80">Virtulive Technologies Pvt Ltd — Aug 2015 – Apr 2019, Banglore, India</p>
+                    <p className="text-cyan-500">Virtulive Technologies Pvt Ltd — Aug 2015 – Apr 2019, Banglore, India</p>
                   </div>
                 </div>
                 <ul className="list-disc list-inside text-white/90 space-y-2 mb-2">
@@ -384,7 +392,7 @@ function App() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold text-white">Graduate Research Assistant</h3>
-                    <p className="text-white/80">California State University, San Bernardino, CA — Aug 2024 – Fall 2024</p>
+                    <p className="text-cyan-500">California State University, San Bernardino, CA — Aug 2024 – May 2025</p>
                   </div>
                 </div>
                 <ul className="list-disc list-inside text-white/90 space-y-2 mb-2">
@@ -609,7 +617,7 @@ function App() {
             <div className="max-w-3xl mx-auto grid grid-cols-1 gap-12">
               {/* Contact Info - personal details only */}
               <div className="space-y-8">
-                <div className="bg-white/20 backdrop-blur-md rounded-2xl p-8 border border-white/30 hover:border-white/50 transition-all duration-300">
+                <div className="bg-white/20 backdrop-blur-md rounded-2xl p-8 border border-white/30 transition-all duration-300">
                   <h3 className="text-2xl font-bold text-cyan-400 mb-6">
                     Get In Touch
                   </h3>
