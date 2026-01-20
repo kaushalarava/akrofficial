@@ -392,7 +392,7 @@ function App() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold text-white">Graduate Research Assistant</h3>
-                    <p className="text-cyan-500">California State University, San Bernardino, CA — Aug 2024 – May 2025</p>
+                    <p className="text-cyan-500">California State University, San Bernardino, CA — June 2024 – May 2025</p>
                   </div>
                 </div>
                 <ul className="list-disc list-inside text-white/90 space-y-2 mb-2">
