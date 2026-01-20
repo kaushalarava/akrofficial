@@ -406,6 +406,81 @@ function App() {
         </div>
       </section>
 
+
+      {/* Skills */}
+      <section
+        id="education"
+        className="relative z-10 py-16 px-4 sm:px-6 lg:px-8"
+      >
+        {/* Section Background */}
+        <div className="absolute inset-0 bg-gradient-to-br from-indigo-900/40 via-purple-900/40 to-pink-900/40"></div>
+        <div className="absolute inset-0 bg-[url('/Images/skill-image.png')] bg-cover bg-center opacity-15"></div>
+        <div className="absolute inset-0 bg-black/40"></div>
+
+        <div className="relative z-10">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-4xl font-bold text-center text-white mb-12">
+              Technical & Professional Skills
+            </h2>
+
+            <div className="bg-white/20 backdrop-blur-md rounded-2xl p-8 shadow-lg border border-white/30 hover:border-white/50 transition-all duration-300 hover:shadow-xl">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-white">
+
+                {/* Frontend */}
+                <div>
+                  <h3 className="font-semibold text-lg mb-2 text-indigo-300">Frontend</h3>
+                  <p className="text-white/90">
+                    Angular (v5–v13), React, TypeScript, JavaScript (ES6+), HTML5, CSS3 / SCSS, UI/UX Design
+                  </p>
+                </div>
+
+                {/* Desktop & Backend */}
+                <div>
+                  <h3 className="font-semibold text-lg mb-2 text-indigo-300">Desktop & Backend</h3>
+                  <p className="text-white/90">
+                    Electron, Python, REST APIs, MySQL
+                  </p>
+                </div>
+
+                {/* Real-Time Communication */}
+                <div>
+                  <h3 className="font-semibold text-lg mb-2 text-indigo-300">Real-Time Communication</h3>
+                  <p className="text-white/90">
+                    WebRTC, SIP Protocols, Microsoft Teams & Contacts APIs
+                  </p>
+                </div>
+
+                {/* Data & Analytics */}
+                <div>
+                  <h3 className="font-semibold text-lg mb-2 text-indigo-300">Data & Analytics</h3>
+                  <p className="text-white/90">
+                    Tableau, Power BI, Analytical Tools, R Studio
+                  </p>
+                </div>
+
+                {/* AI */}
+                <div>
+                  <h3 className="font-semibold text-lg mb-2 text-indigo-300">AI & Machine Learning</h3>
+                  <p className="text-white/90">
+                    Machine Learning Integration
+                  </p>
+                </div>
+
+                {/* Tools */}
+                <div>
+                  <h3 className="font-semibold text-lg mb-2 text-indigo-300">Tools & Methodologies</h3>
+                  <p className="text-white/90">
+                    Git, Agile / Scrum
+                  </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       {/* Education */}
       <section
         id="education"
