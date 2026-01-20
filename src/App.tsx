@@ -634,7 +634,7 @@ function App() {
                       </div>
                       <div>
                         <p className="text-white/90 font-medium">Email</p>
-                        <p className="text-white/70">kaushalarava7@gmail.com</p>
+                        <p className="text-cyan-500">kaushalarava7@gmail.com</p>
                       </div>
                     </div>
 
@@ -646,7 +646,7 @@ function App() {
                       </div>
                       <div>
                         <p className="text-white/90 font-medium">Phone</p>
-                        <p className="text-white/70">+1 (909) 352 8378</p>
+                        <p className="text-cyan-500">+1 (909) 352 8378</p>
                       </div>
                     </div>
 
@@ -666,9 +666,9 @@ function App() {
                           href="https://linkedin.com/in/kaushal-arava-rao-28663028b"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-white/70"
+                          className="text-cyan-500"
                         >
-                          https://linkedin.com/in/kaushal-arava-rao-28663028b
+                          https://www.linkedin.com/in/aravakaushal
                         </a>
                       </div>
                     </div>
@@ -689,7 +689,7 @@ function App() {
                           href="https://github.com/kaushalarava"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-white/70"
+                          className="text-cyan-500"
                         >
                           https://github.com/kaushalarava
                         </a>
