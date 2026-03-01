@@ -187,10 +187,10 @@ function App() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in">
-              AI-Driven <span className="text-orange-400">Innovation</span>
+            End-to-End Application <span className="text-orange-400">Innovation</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto animate-slide-up">
-              Software Developer | AI Technology | UI/UX Expert | Business Analytics Professional
+            Full Stack Developer | Frontend (Angular/React) & Backend (Node.js/Spring Boot) | End-to-End Application Development
               {/* | Former JP Morgan & Rakuten Professional */}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-delayed">
@@ -226,28 +226,28 @@ function App() {
               {/* Text Section */}
               <div className="space-y-6">
                 <h2 className="text-4xl md:text-4xl font-extrabold text-orange-400 tracking-wide">
-                Software Engineering & Business Analytics Professional
+                Full Stack Engineer & Scalable Web Applications Developer
                 </h2>
                 needs into data-driven, impactful products.
                 <p className="text-lg text-gray-200 leading-relaxed">
-                Software Engineer and Business Analytics professional with 8+ years of experience{" "}
+                Full Stack Developer with with 8+ years of experience{" "}
                   <span className="text-cyan-300 font-semibold">
-                  designing and delivering scalable,
+                  building scalable web and desktop applications using Angular,
                   </span>
                   {" "}
                   <span className="text-purple-300 font-semibold">
-                  UI/UX-focused, enterprise-grade applications
+                  React, TypeScript, Node.js, and Electron
                   </span>
-                  . Earned a Master’s in Information Systems and Technology,{" "}
-                  <span className="text-purple-400">specializing in data analytics, AI/ML integration</span> and
-                  intelligent system design{" "}.
+                  . I enjoy working across the stack — from designing clean,{" "}
+                  <span className="text-purple-400">responsive front-end experiences to developing robust REST APIs </span> and
+                  database-driven backend systems{" "}.
                 </p>
                 <p className="text-lg text-gray-300 leading-relaxed">
-                Proven track record of building high-performance solutions{" "}
-                  <span className="text-cyan-400">for global clients and public-sector organizations, translating complex business</span> with
+                Experienced in building real-time communication and enterprise platforms{" "}
+                  <span className="text-cyan-400">that are secure, reliable, and performance-focused. Passionate about writing maintainable code</span> and
                   <span className="text-purple-300">
                     {" "}
-                    needs into data-driven, impactful products.
+                    creating products that deliver real value to users.
                   </span>
                   {/* , holding a Master’s in
                   <span className="text-orange-400">
@@ -321,10 +321,11 @@ function App() {
                   </div>
                 </div>
                 <ul className="list-disc list-inside text-white/90 space-y-2 mb-2">
-                  <li>Architected and developed enterprise-grade front-end solutions for the Movius Multiline Desktop application using Angular (v10–v13), TypeScript, Electron, RxJS, HTML5, SCSS, and JavaScript (ES6+), ensuring modular, scalable, and maintainable codebases</li>
-                  <li>Led implementation of core communication features including Voicemail, Group Messaging, and Picture Messaging, integrating SIP protocols, secure messaging workflows, and real-time event handling.</li>
-                  <li>Designed and maintained fully responsive, adaptive UIs supporting Windows, macOS, iOS (iPhone/iPad), and tablet form factors, leveraging CSS Flexbox/Grid, media queries, and component-driven design systems.</li>
-                  <li>Integrated RESTful APIs, Microsoft Teams APIs, Microsoft Contacts Sync and SQL Database while contributing to Movius Multiline platform with a strong focus on security, compliance, performance, and cross-team collaboration.</li>
+                  <li>Worked as a Full Stack Developer on MultiLine Desktop at Movius, helping build and enhance a secure enterprise platform for business calling and messaging using Angular (v10–v13), TypeScript, Electron, and Node.js/Java.</li>
+                  <li>Designed and maintained scalable front-end architecture using Angular Router, RxJS, and NgRx, ensuring clean and predictable state management for real-time messaging, voicemail updates, and call workflows.</li>
+                  <li>Contributed to backend development by building RESTful APIs and microservices, while managing data persistence with SQL databases.</li>
+                  <li>Led development of key features such as V oicemail, Group Messaging, and Picture Messaging (MMS), integrating SIP protocols, WebSockets, and event-driven services to enable reliable, low-latency real-time communication.</li>
+                  <li>Built cross-platform desktop functionality using Electron and optimized API and database performance.</li>
                 </ul>
               </div>
 
@@ -430,7 +431,14 @@ function App() {
                 <div>
                   <h3 className="font-semibold text-lg mb-2 text-indigo-300">Frontend</h3>
                   <p className="text-white/90">
-                    Angular (v5–v13), React, TypeScript, JavaScript (ES6+), HTML5, CSS3 / SCSS, UI/UX Design
+                  Angular (v10–v13), React, TypeScript, JavaScript (ES6+), RxJS, NgRx/Redux, Angular Router
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-lg mb-2 text-indigo-300">UI / Styling</h3>
+                  <p className="text-white/90">
+                  HTML5, CSS3, SCSS, Flexbox, Grid, Media Queries, Responsive Design
                   </p>
                 </div>
 
@@ -438,7 +446,7 @@ function App() {
                 <div>
                   <h3 className="font-semibold text-lg mb-2 text-indigo-300">Desktop & Backend</h3>
                   <p className="text-white/90">
-                    Electron, Python, REST APIs, MySQL
+                  Node.js, Java (Spring Boot), Python, REST APIs
                   </p>
                 </div>
 
@@ -446,23 +454,23 @@ function App() {
                 <div>
                   <h3 className="font-semibold text-lg mb-2 text-indigo-300">Real-Time Communication</h3>
                   <p className="text-white/90">
-                    WebRTC, SIP Protocols, Microsoft Teams & Contacts APIs
+                    WebRTC, SIP Protocols, Microsoft Teams & Contacts APIs, WebSockets
                   </p>
                 </div>
 
                 {/* Data & Analytics */}
                 <div>
-                  <h3 className="font-semibold text-lg mb-2 text-indigo-300">Data & Analytics</h3>
+                  <h3 className="font-semibold text-lg mb-2 text-indigo-300">Databases</h3>
                   <p className="text-white/90">
-                    Tableau, Power BI, Analytical Tools, R Studio
+                  SQL, MySQL, PostgreSQL
                   </p>
                 </div>
 
                 {/* AI */}
                 <div>
-                  <h3 className="font-semibold text-lg mb-2 text-indigo-300">AI & Machine Learning</h3>
+                  <h3 className="font-semibold text-lg mb-2 text-indigo-300">DevOps / CI-CD</h3>
                   <p className="text-white/90">
-                    Machine Learning Integration
+                  Docker, CI/CD (Azure DevOps, Jenkins, GitHub Actions
                   </p>
                 </div>
 
